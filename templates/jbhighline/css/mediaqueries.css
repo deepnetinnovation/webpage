@@ -1,0 +1,492 @@
+/**
+ * @package		Joomla Bamboo Zen Grid Framework
+ * @Type        Core CSS
+ * @version		v2
+ * @author		Joomlabamboo http://www.joomlabamboo.com
+ * @copyright 	Copyright (C) 2007 - 2010 Joomla Bamboo
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+/* Rules for Media queries. If you want to create your own media query file just create a file called mediaqueroes.css in your css file.
+-----------------------------------------------------------------------------*/
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */ 
+@media screen and (max-width: 1000px) {
+	.container { width: 748px !important; }
+	#bannerwrap .container { width: 100% !important; }
+
+	.fullwrap.togglemenu #menuwrap,
+	.fullwrap.selectmenu #menuwrap {display: none;}
+	
+	.metadivider {
+    	margin: 10px 0;
+	}
+	
+	#topwrap ul li.parent a, 
+	#topwrap ul li.parent span.mainlevel span {
+		background: transparent none!important;
+	}
+
+	#togglemenutrigger span {
+		display: block;text-indent: -9999px;
+	}
+
+	.hasimg #rightCol {
+		margin-top: 0px !important;
+	}
+	
+	#banner .zentext,
+	#banner h2,
+	#banner .slide-controller {
+		margin-left: 10% !important;
+	}
+
+	#banner .slide-controller {
+		left: 3% !important;
+	}
+
+	.jbMeta span.jbAuthor, 
+	.jbMeta .jbCreatedate,
+	.jbMeta .commentsLink {
+		background: transparent none;
+		min-height: auto;
+		padding: 0;
+	}
+	
+	.jbMeta .jbCategories a {
+		background-color: transparent!important;
+		padding: 0!important;
+		color: #666!important;
+	}
+	
+	.jbMeta span.jbAuthor img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 940px) {
+	#banner .zentext,
+	#banner h2,
+	#banner .slide-controller {
+		margin-left: 6% !important;
+	}
+
+	#banner .slide-controller {
+		left: 3% !important;
+	}
+	
+	.hasimg #left {
+	width:95.5% !important;
+	}
+	
+	.hasimg .grid_three #left {
+	width: 102% !important;
+} 
+.buttons { text-align: left !important }
+
+.jbCategory.zenblock {
+    margin-bottom: 10px !important;
+}
+ 
+}
+
+
+/* Fix for tabs dropping onto two lines on small screens */
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 600px !important;
+	}
+	
+	
+	
+	#mainContent .grid_one, .grid_two, 
+	#mainContent .grid_three, 
+	#mainContent .grid_four, 
+	#mainContent .grid_five, 
+	#mainContent .grid_six, 
+	#mainContent .grid_seven, 
+	#mainContent .grid_eight, 
+	#mainContent .grid_nine, 
+	#mainContent .grid_ten, 
+	#mainContent .grid_eleven, 
+	#mainContent .grid_3, 
+	#mainContent .grid_4, 
+	#mainContent .grid_2, 
+	#mainContent .grid_1, 
+	#mainContent .grid_5, 
+	#mainContent .grid_7, 
+	#mainContent .grid_8, 
+	#mainContent .grid_9, 
+	#mainContent .grid_10, 
+	#mainContent .grid_11,
+	#mainContent .cols2,
+	#mainContent .cols3,
+	#mainContent .cols4,
+	#mainContent .cols5,
+	#mainContent .cols6,
+	#mainContent .cols7,
+	#mainContent .cols8 {
+		margin-right: 0;
+		float: none;
+		width: 100%;
+	}
+	
+	.jbMeta span,
+	.jbMeta div {
+	float: left;width: 100%
+	}
+	
+	.jbMeta span span,
+	.jbMeta .jbCreatedate span,
+	.buttons span {
+	width: auto;margin-right: 8px;
+}
+	h2.contentheading {
+	margin: 0 !important
+}
+	
+
+	/* Special module class to hide some modules on small browsers */
+	.moduletable.mobilehide{display: none;}
+	
+	.jbMeta.grid_three,
+	#jbArticle.grid_nine {
+		width: 100%;float: none;
+	}
+	
+	.jbMeta {
+		clear: both;
+margin: 0;
+	}
+	
+	.jbMeta span.jbAuthor, 
+	.jbMeta .jbCreatedate {
+		padding: 0;
+		min-height: auto;
+		float: left!important;
+		margin: 0 20px 0 0!important;
+	}
+
+	.jbMeta .metadivider {
+		display: none;
+	}
+	
+	.jbMeta .actions {
+		float: right;
+	}
+	
+	.k2 .jbMeta span.jbAuthor,
+	.k2 .jbMeta .jbCreatedate,
+	.k2 .jbMeta .commentsLink,
+	.k2 .jbMeta .jbCategories,
+	.k2 .jbMeta .hits,
+	.k2 .jbMeta .tagsBlock,
+	.k2 .jbMeta .catItemRatingBlock {
+		background: transparent none!important;
+		padding: 0 0 5px!important;
+		min-height: 25px!important;
+		height: auto!important;
+		float: left!important;
+		clear: none!important;
+		margin: 0 20px 0 0!important;
+		width: auto!important;
+		font-weight: bold;
+	}
+	
+	
+	.hasimg #left {
+	width:96% !important;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 599px) {
+	/* Makes all grid positions 100% in width on small browsers */
+	.grid_one,
+	.grid_two,
+	.grid_three,
+	.grid_four,
+	.grid_five,
+	.grid_six,
+	.grid_seven,
+	.grid_eight,
+	.grid_nine,
+	.grid_ten,
+	.grid_eleven,
+	.grid_twelve,
+	.grid_1,
+	.grid_2,
+	.grid_3,
+	.grid_4,
+	body .zentools.grid li.featured.element 
+	{width: 100%;margin-bottom: 30px;float:none;} 	
+	
+	.floatleft {
+		float: none;
+		margin: 0 0 20px 0;
+	}
+	
+	.container {
+		width: 440px !important;
+	}
+	
+	body #topwrap ul li {
+		line-height: 25px;
+	}
+	
+	body #topwrap #socialicons.zencenter ul li {
+		padding: 0;
+	}
+	
+	#zenpanel {
+		width: 106%!important;
+		top: 5%!important;
+		left: 2%!important;
+	}
+	
+	#breadcrumb {
+		display: none;
+	}
+	
+	.article.hasimg .contentheading, .hasimg .componentheading, .com_k2.item.hasimg .contentheading {
+		font-size: 32px;
+		font-size: 3.2rem;
+	}
+
+	#right {
+		margin-top: 0px !important;padding: 0 6% !important;width: 88% !important;;
+	}
+	
+	#left.sidebar {
+	margin-left: 4% !important;width: 92%;;
+}
+	
+	#right.sidebar {
+	border-top: 0;
+}
+ 
+	#right.sidebar,
+	#left.sidebar  {
+	background: #fff !important;
+}
+
+.hasimg #left {
+	padding: 0 !important;width: 92% !important; background: none !important;border-top: 0;clear: both;
+}
+#rightCol {
+	margin: 0 !important;
+}
+	#togglemenu {
+	display: block !important;
+}
+	#togglemenutrigger {
+		position: absolute;top:35px;;text-indent: -9999em;width: 0px !important;
+	}
+	
+	#togglemenucontent {
+		top: 85px;
+	}
+	a#zenpanelclose2 {
+	position: absolute;right: 0;z-index: 11;
+}
+		#navwrap.sticky a#zenpanelclose2 {
+position: absolute;right: 0;z-index: 10;
+}
+
+#navwrap a#zenpanelclose2:active,
+#navwrap a#zenpanelclose2:focus {
+top: 30px;position: absolute;
+}
+
+
+#navwrap.sticky a#zenpanelclose2:active,
+#navwrap.sticky a#zenpanelclose2:focus{
+	position: absolute;
+	top: 30px;
+	z-index: 11;
+}
+	
+
+
+	#top4 {
+		position: absolute;width: 100px;right: 0;;;
+	}
+
+	.hasimg #midCol {
+		margin-top: 220px !important
+	}
+
+	.article.hasimg .contentheading {
+		font-size: 2.4rem !important;
+	}
+	
+	.jbMeta .actions {
+		display: none;
+	}
+	
+	#logo {
+		margin-top: -30px !important;
+	}
+	
+	#footerLeft {
+		margin: 0;
+	}
+	
+	
+	#footerLeft{
+		text-align:center;margin-top: -8px;text-align:center;
+	}
+
+	#footerLeft ul {
+	display:inline-block;
+	list-style:none; 
+	}
+
+	* html #footerLeft.centered ul { /* Target IE6 */
+	display:inline;
+	}
+
+	*+html #footerLeft.centered ul { /* Target IE7 */
+	display:inline;
+	}
+
+	#footerLeft li{
+	display:inline;
+	padding:8px 0 0 10px;
+	}
+	
+	#footerLeft .moduletable {
+	margin-bottom: 30px;
+}
+	#footerLeft li a {
+	float: left;
+	}
+
+
+	#footerRight {
+	width: 100%;text-align: center;padding: 10px 0 30px
+	}
+
+	
+	/* Resets the push and pull for source ordered content */
+	.onecols_pull,
+	.twocols_pull,
+	.threecols_pull,
+	.fourcols_pull,
+	.fivecols_pull,
+	.sixcols_pull,
+	.sevencols_pull,
+	.eightcols_pull,
+	.ninecols_pull,
+	.tencols_pull,
+	.elevencols_pull,
+	.twelvecols_pull,
+	.onecols_push,
+	.twocols_push,
+	.threecols_push,
+	.fourcols_push,
+	.fivecols_push,
+	.sixcols_push,
+	.sevencols_push,
+	.eightcols_push,
+	.ninecols_push,
+	.tencols_push,
+	.elevencols_push,
+	.twelvecols_push
+	{left: 0;}
+	
+	
+#socialicons  {
+	position: absolute !important;margin-right: 10px;top: 40px;
+}
+
+
+	#navwrap.sticky #socialicons {
+	display: none;
+}
+
+	#socialicons  {
+	position: absolute !important;right: -15px;top: 100px;
+}
+	ul#filters {
+	margin-top: 20px !important;
+}
+
+}
+
+
+@media only screen and (max-width: 439px) {
+
+	.container {
+		width: 340px !important;
+	}
+	
+	#logo {
+		margin: -20px 0 0 0;
+		position: relative;
+	}
+	
+	#topwrap #top4 {
+		top: 110px;
+	}
+	
+	body #maincontainer {
+		padding: 70px 0 60px;
+	}
+	
+	#mainContent {
+		padding: 0 20px !important;
+	}
+	.jbMeta span.jbAuthor, 
+	.jbMeta .jbCreatedate {
+		padding: 0 20px 0 0;
+		min-height: auto;
+		float: left;
+		background: transparent none;
+	}	
+	
+	.article.hasimg .contentheading, 
+	.hasimg .componentheading, 
+	.com_k2.item.hasimg .contentheading {
+		margin-top: 50px!important;width: auto !important;
+		font-size: 2rem !important;
+	}
+	
+	#togglemenutrigger {
+
+	background: url(../images/sprite.png) no-repeat 10px -698px !important;
+	border: 0 !important;
+	padding: 0;
+	
+	margin: 38px 0 0 -11px !important;top: 80px;left: 0;text-indent: 10px;color: #9a9a9a
+	}
+	
+	#navwrap.sticky #togglemenutrigger {
+		background: #2c2c2c url(../images/sprite.png) no-repeat 10px -590px !important;margin-top: 35px !important;
+	
+}
+	
+	#navwrap.sticky #togglemenutrigger {
+	top: 10px;text-indent: -9999em;}
+	
+	#navwrap #togglemenucontent {
+		top: 155px;;
+	}
+	
+
+#socialicons  {
+	position: absolute !important;right: -15px;top: 110px;
+}
+	
+
+	#navwrap.sticky #socialicons {
+	display: none;
+}
+	
+	#navwrap.sticky #socialicons  {
+	position: absolute !important;right: -20px;top: 40px;
+}
+
+
+}

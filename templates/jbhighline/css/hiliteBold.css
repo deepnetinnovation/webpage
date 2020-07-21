@@ -1,0 +1,160 @@
+		/*------------------------------------------------------------------
+Template:	JB Highline
+Version:	Joomla 1.5 / Joomla 2.5
+Zen Grid:	v2.0
+Copyright:	Joomlabamboo
+Created:	August 2012
+------------------------------------------------------------------*/
+	
+		/*------------- First Colour   --------------*/
+
+		body {
+			background-color: #4571A4;
+		}
+ 
+		a:hover { color: #4571A4}
+		
+
+		
+		.hasimg #right,
+		.hasimg #left,
+		.hasimg #center  {
+			border-top: 4px solid #cc2a09;
+		}
+		
+		.linestop {
+			border-bottom: 4px solid #4571A4 !important;
+		}
+		
+		
+		.moduleTitle h3,
+		.moduleTitle h3 span,
+		#grid1wrap .zentools .zencategory,
+		#grid1wrap .zentools .zencategory span
+		{
+	background-color: #FF5B33;
+	
+}
+		
+		
+		.article .contentheading,
+		.com_k2.item.hasimg .contentheading,
+		.hasimg .componentheading,
+		.componentheading,
+		.article span.jbCategories a:hover {
+			background: #4571A4}
+		
+		
+		/*------------- Second Colour   --------------*/
+		a,
+		.moduletable-panelmenu span.mainlevel span,
+		.sidebar li li span,
+		.sidebar li.active li span,
+		#mainContent .contentheading a,
+		#togglemenucontent ul li.active,
+		#togglemenucontent ul li.active li.active a,
+		#togglemenucontent ul li.active li.active li.active a,
+		.category .jbCategories a,
+		.section .jbCategories a,
+		.category .jbCategories span,
+		.jbCategories.zencategories a,
+		.blogsidebar .zencategories  { color: #F0310B }
+		
+		#grid1wrap .zentools .business .zencategory span,
+		#grid1wrap .zentools .business .zencategory,
+		.contentheading.business,
+		.zentools .business .zenfeatured,
+		.moduletable.primary1 .moduleTitle h3,
+		.moduletable.primary1 .moduleTitle h3 span,
+		input#submitCommentButton,
+		input.button,
+		.hasimg .jbCategories a,
+		.hasimg .jbCategories span,
+		.hasimg .category-heading span strong,
+		#jbSplitMenuRight h3 span,
+		#jbSplitMenuRight h3 
+		 {
+			background-color:  #F0310B;
+		}
+		
+		.linestop.primary1 {
+			border-bottom: 4px solid #F0310B !important;
+		}
+		
+		#navwrap,
+		#mainwrap .row,
+		.hasimg .jbSectCat,
+		.article .jbintrotext img {border-color: #FD5F00 !important}
+		
+			
+		input#submitCommentButton,
+		input.button {
+		border: 1px solid #cc2a09}
+		
+
+		
+		
+		/*------------- Third Colour   --------------*/
+		
+		#grid1wrap .zentools .food .zencategory span,
+		#grid1wrap .zentools .food .zencategory,
+		.contentheading.food,
+		.zentools .food .zenfeatured,
+		.moduletable.primary2 .moduleTitle h3,
+		.moduletable.primary2 .moduleTitle h3 span,
+		input#submitCommentButton:hover,
+		#zenpanel input.button:hover {
+			background-color:  #85898C;
+		}
+		
+		input#submitCommentButton:hover,
+		#zenpanel input.button:hover {
+		border: 1px solid #85898C}
+		
+		
+		.linestop.primary2 {
+			border-bottom: 4px solid #85898C !important;
+		}
+		
+		.sidebar li.active span,
+		.sidebar li.active li.active span {
+			color: #85898C;
+		}
+		
+		/*------------- Fourth Colour   --------------*/
+		#grid1wrap .zentools .travel .zencategory span,
+		#grid1wrap .zentools .travel .zencategory,
+		.contentheading.travel,
+		.zentools .travel .zenfeatured,
+		.moduletable.secondary1 .moduleTitle h3,
+		.moduletable.secondary1 .moduleTitle h3 span  {
+			background-color: #87A6CB;
+		}
+		
+		
+		.linestop.secondary1 {
+			border-bottom: 4px solid #87A6CB !important;
+		}
+		
+		
+		
+		/*------------- Fifth Colour   --------------*/
+		.moduletable.secondary2 .moduleTitle h3,
+		.moduletable.secondary2 .moduleTitle h3 span,
+		#grid1wrap .zentools .people .zencategory span,
+		#grid1wrap .zentools .people .zencategory,
+		.contentheading.people,
+		.zentools .people .zenfeatured   {
+			background-color:  #98A7A2;
+		}
+		
+		.linestop.secondary2 {
+			border-bottom: 4px solid  #98A7A2 !important;
+		}
+		
+		
+		.article h1.contentheading {
+			color: #fff;
+		}
+		
+		

@@ -1,0 +1,32 @@
+/**
+ * @package		Joomla Bamboo Zen Grid Framework
+ * @Type        Core CSS
+ * @version		v2.0
+ * @author		Joomlabamboo http://www.joomlabamboo.com
+ * @copyright 	Copyright (C) 2007 - 2010 Joomla Bamboo
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+ 
+
+
+/*------------------------------------*\
+	Panel
+\*------------------------------------*/
+/* Hidden Panel
+---------------------------------------------------*/
+#zenpaneltrigger {position: absolute;top: 0;right: 20px;z-index: 101}
+#zenpanel {display: none;position: fixed !important;z-index: 100;background: #fff;border: 1px solid #ddd;top: 100px !important;} 
+#zenpanelInner {padding: 30px 0;float: left;
+width: 90%;margin-left: 5%;
+}
+#zenoverlay {display: none;width: 100%;background: #f9f9f9;float: left;position: fixed;left: 0;top: 0;z-index: 99;height: 100%;}
+
+a#zenpanelopen.active,a#zenpanelclose {display: none;}
+a#zenpanelclose.active {display: block;}
+
+
+
+
+/* Hidden Panel Container
+---------------------------------------------------*/
+#zenpanel {z-index: 100;display: none;-webkit-box-shadow: 0px 0px 60px #ccc;-moz-box-shadow: 0px 0px 10px #ccc;box-shadow: 0px 0px 10px #ccc;-moz-border-radius: 5px;-khtml-border-radius: 5px;-webkit-border-radius: 5px;background: #eaeaea}
